@@ -1,0 +1,9 @@
+choose = input("Press C to convert from Fahrenheit to Celsisus. \nPress F to convert from Celsius to Fahrenheit.  ")
+
+if choose == "c" or choose == "C":
+    print("Your choice: C")
+    print()
+    F = eval(input("Please enter the temperature in Fahrenheit:  "))
+    C = round((F - 32) * 5/9)
+print("The temperature in Celsius is", str(C) + ".")    
+
